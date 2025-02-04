@@ -1,7 +1,7 @@
 [
   {{- range $index, $page := .Site.RegularPages -}}
     {{- if gt $index 0 -}} , {{- end -}}
-    {{- $entry := dict "uri" $page.RelPermalink "ititle" $page.Params.ititle -}}
+    {{- $entry := dict "uri" $page.Permalink "ititle" $page.Params.ititle -}}
     {{- $entry = merge $entry (dict "title" $page.Params.title) -}}
     {{- $entry = merge $entry (dict "type" $page.Type) -}}
     {{ if eq $page.Type "woman" }}
@@ -33,7 +33,7 @@
             {{- $senderIds := slice -}}
             {{- range $sender := $page.Params.senders -}}
                 {{- $senders = $senders | append ($sender.name) -}}
-                {{- $senderIds = $senderIds | append ($sender.url) -}}
+                {{- $senderIds = $senderIds | append ( print $page.Site.BaseURL $sender.url ) -}}
             {{- end -}}
             {{- $entry = merge $entry (dict "senders" $senders) -}}
             {{- $entry = merge $entry (dict "senderIds" $senderIds) -}}
@@ -43,7 +43,7 @@
             {{- $receiverIds := slice -}}
             {{- range $receiver := $page.Params.receivers -}}
                 {{- $receivers = $receivers | append ($receiver.name) -}}
-                {{- $receiverIds = $receiverIds | append ($receiver.url) -}}
+                {{- $receiverIds = $receiverIds | append ( print $page.Site.BaseURL $receiver.url ) -}}
             {{- end -}}
             {{- $entry = merge $entry (dict "receivers" $receivers) -}}
             {{- $entry = merge $entry (dict "receiverIds" $receiverIds) -}}

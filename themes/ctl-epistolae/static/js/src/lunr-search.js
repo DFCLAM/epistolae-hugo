@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', function() {
     });
 
     // Load the search index
-    $.getJSON('/search.json').done(function(response) {
+    $.getJSON('https://alim.unisi.it/epistolae/search.json').done(function(response) {
         index = lunr(function() {
             this.ref('uri');
 
