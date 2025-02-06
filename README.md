@@ -16,3 +16,11 @@ Unless otherwise noted, the content on this site is licensed under a [Creative C
 Epistolae is meant to be a cooperative project. It designed to allow for future additions and translations of letters, as well as corrections to the texts or to the information offered. Some scholars and presses have already contributed letters and translations, and their contributions are gratefully acknowledged in the text. Users are invited to participate by sending material or inquiries to <a mailto:"jmf2@columbia.edu">jmf2@columbia.edu</a>. Contributions, fully acknowledged, will be put online after review for accuracy and style by members of the Epistolae Board.
 
 Please send suggested corrections or additional information about the texts already online. If you have translations with accompanying material for other letters and wish to contribute them, or if you have knowledge of letters from archives and manuscripts or from published chronicles that may not be known to us, please let us kno
+
+## Compile for production
+
+```
+hugo -s . -b <base-url-of-the-site-with-trailing-slash>
+```
+
+(tested with hugo version v0.98.0)
