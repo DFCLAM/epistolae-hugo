@@ -159,7 +159,7 @@ No electronic versions are currently available (the Vetus Latina database does n
 ---------
 
 ## Genealogy {#genealogy}
-<a href="{}/pdf/genealogy.pdf">Genealogy of women in Epistolæ</a> (PDF)<br>Note: To view this chart, download it and open it in a PDF reader like Adobe Acrobat (Windows and Macs) or Preview (Macs only). Adjust the zoom setting to 100%, and scroll to view relationships.
+<a href="/pdf/genealogy.pdf">Genealogy of women in Epistolæ</a> (PDF)<br>Note: To view this chart, download it and open it in a PDF reader like Adobe Acrobat (Windows and Macs) or Preview (Macs only). Adjust the zoom setting to 100%, and scroll to view relationships.
 
 ---------
 
