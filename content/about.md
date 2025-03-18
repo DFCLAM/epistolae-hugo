@@ -8,8 +8,8 @@ lede: "Epistol&#xe6 is a collection of letters to and from women in the Middle A
 <div class="col-md-7">
 
 <h2>Website</h2>
-<p>This site in its entirety has been moved to the University of Siena, where it will remain an ongoing project under the direction of Professors Francesco Stella and Elisabetta Bartoli. The new site is available at <a href="https://epistolae.unisi.it">https://epistolae.unisi.it</a>.</p>
 <p>This site was originally developed at the <a href="https://ctl.columbia.edu">Columbia Center for Teaching and Learning</a> (formerly the Columbia Center for New Media Teaching and Learning) and has been <a href="http://wayback.archive-it.org.ezproxy.cul.columbia.edu/1914/epistolae.ctl.columbia.edu">archived by the Columbia University libraries</a> where it remains available. In addition to the archived site, archived and downloadable versions of the biographies and letters may be accessed through the Libraries' <a href="https://academiccommons.columbia.edu/detail/epistolae">Academic Commons</a> repository.</p>
+<p>This site in its entirety has been moved to the University of Siena, where it will remain an ongoing project under the direction of Professors Francesco Stella and Elisabetta Bartoli. The new site is available at <a href="https://epistolae.unisi.it">https://epistolae.unisi.it</a>.</p>
 
 <h2>Project</h2>
 <p>The original version of Epistol&#xe6 is a collection of medieval Latin letters to and from women, dating from the 4th to the 13th centuries. Presented in their original Latin as well as in English translation, the letters are organized by the name and biography of the women writers or recipients. Biographical sketches of the women, descriptions of the subject matter of the letters, and the historical context of the correspondence are included where available.</p>
