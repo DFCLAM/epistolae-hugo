@@ -23,4 +23,4 @@ Please send suggested corrections or additional information about the texts alre
 hugo -s . -b <base-url-of-the-site-with-trailing-slash>
 ```
 
-(tested with hugo version v0.98.0)
+(tested with hugo version [v0.98.0](https://github.com/gohugoio/hugo/releases/tag/v0.98.0))
